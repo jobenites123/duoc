@@ -1,4 +1,5 @@
 import csv
+print("hola mundo")
 with open('archivocsv.csv','w', newline='') as archivo:
     escritor= csv.writer(archivo)
     escritor.writerow(['Nombre','Edad','Comuna'])
